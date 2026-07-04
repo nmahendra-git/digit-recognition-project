@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (MNIST gets downloaded automatically, no need to commit it)
+data/*
+!data/.gitkeep
+
+# Trained models / weights (can be large; keep repo lightweight)
+models/*.h5
+models/*.pkl
+models/*.keras
+!models/.gitkeep
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.log
+
+# Environment variables
+.env
